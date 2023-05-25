@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Website</title>
+    <link rel="stylesheet" href="../dist/css/style.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;700&display=swap" rel="stylesheet">    <script src="https://kit.fontawesome.com/25e2eeb356.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="nav-mobile">
+    <a href="#" class="nav-mobile__tree"><i class="fa-solid fa-tree burger-icon" style="color: #464b53;"></i></a>
+    <div class="nav-mobile__box">
+        <a href="#" class="nav-mobile__box-links">Home</a>
+        <a href="#about-us" class="nav-mobile__box-links">O nas</a>
+        <a href="#offer" class="nav-mobile__box-links">Oferta</a>
+        <a href="kontakt.html" class="nav-mobile__box-links">Kontakt</a>
+    </div>
+</nav>
+
+<nav class="nav-desktop">
+    <a href="index.html" class="nav-desktop__tree"><i class="fa-solid fa-tree burger-icon" style="color: #464b53;"></i>
+        Forest</a>
+    <div class="nav-desktop__box">
+        <a href="#" class="nav-desktop__box-links">Home</a>
+        <a href="#about-us" class="nav-desktop__box-links">O nas</a>
+        <a href="#offer" class="nav-desktop__box-links">Oferta</a>
+        <a href="kontakt.html" class="nav-desktop__box-links">Kontakt</a>
+    </div>
+</nav>    <section class="contactMain">
+        <form>
+            <h1 class="title">Kontakt</h1>
+            <div class="contact-box">
+                <label for="name">Imię:</label>
+                <input class="text" type="text" id="name" name="name" required>
+            </div>
+            <div class="contact-box">
+                <label for="email">Email:</label>
+                <input class="text" type="email" id="email" name="email" required>
+            </div>
+            <div class="contact-box">
+                <label class="textareaLabel" for="msg">Wiadomość:</label>
+                <textarea class="textarea
+            " name="msg" id="msg" required></textarea>
+            </div>
+            <div class="btnBox">
+                <button>Wyślij</button>
+            </div>
+        </form>
+
+        <section class="mapSection">
+
+            <h1 class="mapSection__title">Znajdziesz nas tutaj</h1>
+            <div class="mapSection__map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.8982690809967!2d19.890273976541692!3d50.088191513380984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1684179532151!5m2!1spl!2spl"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </section>
+    <footer class="footer">
+    <div class="footer__box">
+        <a class="footer__icon"><i class="fa-solid fa-tree burger-icon" style="color: #464b53;"></i> Forest</a>
+        <div class="footer__box--text one">
+            <h2>O nas</h2>
+            <p>Historia</p>
+            <p>Parki</p>
+            <p>Opinie</p>
+        </div>
+        <div class="footer__box--text two">
+            <h2>Nasza firma</h2>
+            <p>Praca</p>
+            <p>Kadry</p>
+            <p>Zarząd</p>
+        </div>
+        <div class="footer__box--text three">
+            <h2>Dokumentacja</h2>
+            <p>Wnioski</p>
+            <p>Rezerwacja</p>
+        </div>
+    </div>
+    <div class="footer__date">
+        <hr>
+        <p>&copy; <span class="footer__date--year"></span> Forest Group Company Ltd.</p>
+    </div>
+</footer>
+    <script src="../dist/js/contact.min.js"></script>
+</body>
+
+</html>
